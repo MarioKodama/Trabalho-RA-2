@@ -1,0 +1,626 @@
+Categoria: Cereais e derivados
+numero: 1 desc: Arroz, integral, cozido energia: 124 proteina: 2,6
+numero: 2 desc: Arroz, integral, cru energia: 360 proteina: 7,3
+numero: 3 desc: Arroz, tipo 1, cozido energia: 128 proteina: 2,5
+numero: 4 desc: Arroz, tipo 1, cru energia: 358 proteina: 7,2
+numero: 5 desc: Arroz, tipo 2, cozido energia: 130 proteina: 2,6
+numero: 6 desc: Arroz, tipo 2, cru energia: 358 proteina: 7,2
+numero: 7 desc: Aveia, flocos, crua energia: 394 proteina: 13,9
+numero: 8 desc: Biscoito, doce, maisena energia: 443 proteina: 8,1
+numero: 9 desc: Biscoito, doce, recheado com chocolate energia: 472 proteina: 6,4
+numero: 10 desc: Biscoito, doce, recheado com morango energia: 471 proteina: 5,7
+numero: 11 desc: Biscoito, doce, wafer, recheado de chocolate energia: 502 proteina: 5,6
+numero: 12 desc: Biscoito, doce, wafer, recheado de morango energia: 513 proteina: 4,5
+numero: 13 desc: Biscoito, salgado, cream cracker energia: 432 proteina: 10,1
+numero: 14 desc: Bolo, mistura para energia: 419 proteina: 6,2
+numero: 15 desc: Bolo, pronto, aipim energia: 324 proteina: 4,4
+numero: 16 desc: Bolo, pronto, chocolate energia: 410 proteina: 6,2
+numero: 17 desc: Bolo, pronto, coco energia: 333 proteina: 5,7
+numero: 18 desc: Bolo, pronto, milho energia: 311 proteina: 4,8
+numero: 19 desc: Canjica, branca, crua energia: 358 proteina: 7,2
+numero: 20 desc: Canjica, com leite integral energia: 112 proteina: 2,4
+numero: 21 desc: Cereais, milho, flocos, com sal energia: 370 proteina: 7,3
+numero: 22 desc: Cereais, milho, flocos, sem sal energia: 363 proteina: 6,9
+numero: 23 desc: Cereais, mingau, milho, infantil energia: 394 proteina: 6,4
+numero: 24 desc: Cereais, mistura para vitamina, trigo, cevada e aveia energia: 381 proteina: 8,9
+numero: 25 desc: Cereal matinal, milho energia: 365 proteina: 7,2
+numero: 26 desc: Cereal matinal, milho, açúcar energia: 377 proteina: 4,7
+numero: 27 desc: Creme de arroz, pó energia: 386 proteina: 7,0
+numero: 28 desc: Creme de milho, pó energia: 333 proteina: 4,8
+numero: 29 desc: Curau, milho verde energia: 78 proteina: 2,4
+numero: 30 desc: Curau, milho verde, mistura para energia: 402 proteina: 2,2
+numero: 31 desc: Farinha, de arroz, enriquecida energia: 363 proteina: 1,3
+numero: 32 desc: Farinha, de centeio, integral energia: 336 proteina: 12,5
+numero: 33 desc: Farinha, de milho, amarela energia: 351 proteina: 7,2
+numero: 34 desc: Farinha, de rosca energia: 371 proteina: 11,4
+numero: 35 desc: Farinha, de trigo energia: 360 proteina: 9,8
+numero: 36 desc: Farinha, láctea, de cereais energia: 415 proteina: 11,9
+numero: 37 desc: Lasanha, massa fresca, cozida energia: 164 proteina: 5,8
+numero: 38 desc: Lasanha, massa fresca, crua energia: 220 proteina: 7,0
+numero: 39 desc: Macarrão, instantâneo energia: 436 proteina: 8,8
+numero: 40 desc: Macarrão, trigo, cru energia: 371 proteina: 10,0
+numero: 41 desc: Macarrão, trigo, cru, com ovos energia: 371 proteina: 10,3
+numero: 42 desc: Milho, amido, cru energia: 361 proteina: 0,6
+numero: 43 desc: Milho, fubá, cru energia: 353 proteina: 7,2
+numero: 44 desc: Milho, verde, cru energia: 138 proteina: 6,6
+numero: 45 desc: Milho, verde, enlatado, drenado energia: 98 proteina: 3,2
+numero: 46 desc: Mingau tradicional, pó energia: 373 proteina: 0,6
+numero: 47 desc: Pamonha, barra para cozimento, pré-cozida energia: 171 proteina: 2,6
+numero: 48 desc: Pão, aveia, forma energia: 343 proteina: 12,4
+numero: 49 desc: Pão, de soja energia: 309 proteina: 11,3
+numero: 50 desc: Pão, glúten, forma energia: 253 proteina: 12,0
+numero: 51 desc: Pão, milho, forma energia: 292 proteina: 8,3
+numero: 52 desc: Pão, trigo, forma, integral energia: 253 proteina: 9,4
+numero: 53 desc: Pão, trigo, francês energia: 300 proteina: 8,0
+numero: 54 desc: Pão, trigo, sovado energia: 311 proteina: 8,4
+numero: 55 desc: Pastel, de carne, cru energia: 289 proteina: 10,7
+numero: 56 desc: Pastel, de carne, frito energia: 388 proteina: 10,1
+numero: 57 desc: Pastel, de queijo, cru energia: 308 proteina: 9,9
+numero: 58 desc: Pastel, de queijo, frito energia: 422 proteina: 8,7
+numero: 59 desc: Pastel, massa, crua energia: 310 proteina: 6,9
+numero: 60 desc: Pastel, massa, frita energia: 570 proteina: 6,0
+numero: 61 desc: Pipoca, com óleo de soja, sem sal energia: 448 proteina: 9,9
+numero: 62 desc: Polenta, pré-cozida energia: 103 proteina: 2,3
+numero: 63 desc: Torrada, pão francês energia: 377 proteina: 10,5
+
+Categoria: Verduras, hortaliças e derivados
+numero: 64 desc: Abóbora, cabotian, cozida energia: 48 proteina: 1,4
+numero: 65 desc: Abóbora, cabotian, crua energia: 39 proteina: 1,7
+numero: 66 desc: Abóbora, menina brasileira, crua energia: 14 proteina: 0,6
+numero: 67 desc: Abóbora, moranga, crua energia: 12 proteina: 1,0
+numero: 68 desc: Abóbora, moranga, refogada energia: 29 proteina: 0,4
+numero: 69 desc: Abobora, pescoço, crua energia: 24 proteina: 0,7
+numero: 70 desc: Abobrinha, italiana, cozida energia: 15 proteina: 1,1
+numero: 71 desc: Abobrinha, italiana, crua energia: 19 proteina: 1,1
+numero: 72 desc: Abobrinha, italiana, refogada energia: 24 proteina: 1,1
+numero: 73 desc: Abobrinha, paulista, crua energia: 31 proteina: 0,6
+numero: 74 desc: Acelga, crua energia: 21 proteina: 1,4
+numero: 75 desc: Agrião, cru energia: 17 proteina: 2,7
+numero: 76 desc: Aipo, cru energia: 19 proteina: 0,8
+numero: 77 desc: Alface, americana, crua energia: 9 proteina: 0,6
+numero: 78 desc: Alface, crespa, crua energia: 11 proteina: 1,3
+numero: 79 desc: Alface, lisa, crua energia: 14 proteina: 1,7
+numero: 80 desc: Alface, roxa, crua energia: 13 proteina: 0,9
+numero: 81 desc: Alfavaca, crua energia: 29 proteina: 2,7
+numero: 82 desc: Alho, cru energia: 113 proteina: 7,0
+numero: 83 desc: Alho-poró, cru energia: 32 proteina: 1,4
+numero: 84 desc: Almeirão, cru energia: 18 proteina: 1,8
+numero: 85 desc: Almeirão, refogado energia: 65 proteina: 1,7
+numero: 86 desc: Batata, baroa, cozida energia: 80 proteina: 0,9
+numero: 87 desc: Batata, baroa, crua energia: 101 proteina: 1,0
+numero: 88 desc: Batata, doce, cozida energia: 77 proteina: 0,6
+numero: 89 desc: Batata, doce, crua energia: 118 proteina: 1,3
+numero: 90 desc: Batata, frita, tipo chips, industrializada energia: 543 proteina: 5,6
+numero: 91 desc: Batata, inglesa, cozida energia: 52 proteina: 1,2
+numero: 92 desc: Batata, inglesa, crua energia: 64 proteina: 1,8
+numero: 93 desc: Batata, inglesa, frita energia: 267 proteina: 5,0
+numero: 94 desc: Batata, inglesa, sauté energia: 68 proteina: 1,3
+numero: 95 desc: Berinjela, cozida energia: 19 proteina: 0,7
+numero: 96 desc: Berinjela, crua energia: 20 proteina: 1,2
+numero: 97 desc: Beterraba, cozida energia: 32 proteina: 1,3
+numero: 98 desc: Beterraba, crua energia: 49 proteina: 1,9
+numero: 99 desc: Biscoito, polvilho doce energia: 438 proteina: 1,3
+numero: 100 desc: Brócolis, cozido energia: 25 proteina: 2,1
+numero: 101 desc: Brócolis, cru energia: 25 proteina: 3,6
+numero: 102 desc: Cará, cozido energia: 78 proteina: 1,5
+numero: 103 desc: Cará, cru energia: 96 proteina: 2,3
+numero: 104 desc: Caruru, cru energia: 34 proteina: 3,2
+numero: 105 desc: Catalonha, crua energia: 24 proteina: 1,9
+numero: 106 desc: Catalonha, refogada energia: 63 proteina: 2,0
+numero: 107 desc: Cebola, crua energia: 39 proteina: 1,7
+numero: 108 desc: Cebolinha, crua energia: 20 proteina: 1,9
+numero: 109 desc: Cenoura, cozida energia: 30 proteina: 0,8
+numero: 110 desc: Cenoura, crua energia: 34 proteina: 1,3
+numero: 111 desc: Chicória, crua energia: 14 proteina: 1,1
+numero: 112 desc: Chuchu, cozido energia: 19 proteina: 0,4
+numero: 113 desc: Chuchu, cru energia: 17 proteina: 0,7
+numero: 114 desc: Coentro, folhas desidratadas energia: 309 proteina: 20,9
+numero: 115 desc: Couve, manteiga, crua energia: 27 proteina: 2,9
+numero: 116 desc: Couve, manteiga, refogada energia: 90 proteina: 1,7
+numero: 117 desc: Couve-flor, crua energia: 23 proteina: 1,9
+numero: 118 desc: Couve-flor, cozida energia: 19 proteina: 1,2
+numero: 119 desc: Espinafre, Nova Zelândia, cru energia: 16 proteina: 2,0
+numero: 120 desc: Espinafre, Nova Zelândia, refogado energia: 67 proteina: 2,7
+numero: 121 desc: Farinha, de mandioca, crua energia: 361 proteina: 1,6
+numero: 122 desc: Farinha, de mandioca, torrada energia: 365 proteina: 1,2
+numero: 123 desc: Farinha, de puba energia: 360 proteina: 1,6
+numero: 124 desc: Fécula, de mandioca energia: 331 proteina: 0,5
+numero: 125 desc: Feijão, broto, cru energia: 39 proteina: 4,2
+numero: 126 desc: Inhame, cru energia: 97 proteina: 2,1
+numero: 127 desc: Jiló, cru energia: 27 proteina: 1,4
+numero: 128 desc: Jurubeba, crua energia: 126 proteina: 4,4
+numero: 129 desc: Mandioca, cozida energia: 125 proteina: 0,6
+numero: 130 desc: Mandioca, crua energia: 151 proteina: 1,1
+numero: 131 desc: Mandioca, farofa, temperada energia: 406 proteina: 2,1
+numero: 132 desc: Mandioca, frita energia: 300 proteina: 1,4
+numero: 133 desc: Manjericão, cru energia: 21 proteina: 2,0
+numero: 134 desc: Maxixe, cru energia: 14 proteina: 1,4
+numero: 135 desc: Mostarda, folha, crua energia: 18 proteina: 2,1
+numero: 136 desc: Nhoque, batata, cozido energia: 181 proteina: 5,9
+numero: 137 desc: Nabo, cru energia: 18 proteina: 1,2
+numero: 138 desc: Palmito, juçara, em conserva energia: 23 proteina: 1,8
+numero: 139 desc: Palmito, pupunha, em conserva energia: 29 proteina: 2,5
+numero: 140 desc: Pão, de queijo, assado energia: 363 proteina: 5,1
+numero: 141 desc: Pão, de queijo, cru energia: 295 proteina: 3,6
+numero: 142 desc: Pepino, cru energia: 10 proteina: 0,9
+numero: 143 desc: Pimentão, amarelo, cru energia: 28 proteina: 1,2
+numero: 144 desc: Pimentão, verde, cru energia: 21 proteina: 1,1
+numero: 145 desc: Pimentão, vermelho, cru energia: 23 proteina: 1,0
+numero: 146 desc: Polvilho, doce energia: 351 proteina: 0,4
+numero: 147 desc: Quiabo, cru energia: 30 proteina: 1,9
+numero: 148 desc: Rabanete, cru energia: 14 proteina: 1,4
+numero: 149 desc: Repolho, branco, cru energia: 17 proteina: 0,9
+numero: 150 desc: Repolho, roxo, cru energia: 31 proteina: 1,9
+numero: 151 desc: Repolho, roxo, refogado energia: 42 proteina: 1,8
+numero: 152 desc: Rúcula, crua energia: 13 proteina: 1,8
+numero: 153 desc: Salsa, crua energia: 33 proteina: 3,3
+numero: 154 desc: Seleta de legumes, enlatada energia: 57 proteina: 3,4
+numero: 155 desc: Serralha, crua energia: 30 proteina: 2,7
+numero: 156 desc: Taioba, crua energia: 34 proteina: 2,9
+numero: 157 desc: Tomate, com semente, cru energia: 15 proteina: 1,1
+numero: 158 desc: Tomate, extrato energia: 61 proteina: 2,4
+numero: 159 desc: Tomate, molho industrializado energia: 38 proteina: 1,4
+numero: 160 desc: Tomate, purê energia: 28 proteina: 1,4
+numero: 161 desc: Tomate, salada energia: 21 proteina: 0,8
+numero: 162 desc: Vagem, crua energia: 25 proteina: 1,8
+
+Categoria: Frutas e derivados
+numero: 163 desc: Abacate, cru energia: 96 proteina: 1,2
+numero: 164 desc: Abacaxi, cru energia: 48 proteina: 0,9
+numero: 165 desc: Abacaxi, polpa, congelada energia: 31 proteina: 0,5
+numero: 166 desc: Abiu, cru energia: 62 proteina: 0,8
+numero: 167 desc: Açaí, polpa, com xarope de guaraná e glucose energia: 110 proteina: 0,7
+numero: 168 desc: Açaí, polpa, congelada energia: 58 proteina: 0,8
+numero: 169 desc: Acerola, crua energia: 33 proteina: 0,9
+numero: 170 desc: Acerola, polpa, congelada energia: 22 proteina: 0,6
+numero: 171 desc: Ameixa, calda, enlatada energia: 183 proteina: 0,4
+numero: 172 desc: Ameixa, crua energia: 53 proteina: 0,8
+numero: 173 desc: Ameixa, em calda, enlatada, drenada energia: 177 proteina: 1,0
+numero: 174 desc: Atemóia, crua energia: 97 proteina: 1,0
+numero: 175 desc: Banana, da terra, crua energia: 128 proteina: 1,4
+numero: 176 desc: Banana, doce em barra energia: 280 proteina: 2,2
+numero: 177 desc: Banana, figo, crua energia: 105 proteina: 1,1
+numero: 178 desc: Banana, maçã, crua energia: 87 proteina: 1,8
+numero: 179 desc: Banana, nanica, crua energia: 92 proteina: 1,4
+numero: 180 desc: Banana, ouro, crua energia: 112 proteina: 1,5
+numero: 181 desc: Banana, pacova, crua energia: 78 proteina: 1,2
+numero: 182 desc: Banana, prata, crua energia: 98 proteina: 1,3
+numero: 183 desc: Cacau, cru energia: 74 proteina: 1,0
+numero: 184 desc: Cajá-Manga, cru energia: 46 proteina: 1,3
+numero: 185 desc: Cajá, polpa, congelada energia: 26 proteina: 0,6
+numero: 186 desc: Caju, cru energia: 43 proteina: 1,0
+numero: 187 desc: Caju, polpa, congelada energia: 37 proteina: 0,5
+numero: 188 desc: Caju, suco concentrado, envasado energia: 45 proteina: 0,4
+numero: 189 desc: Caqui, chocolate, cru energia: 71 proteina: 0,4
+numero: 190 desc: Carambola, crua energia: 46 proteina: 0,9
+numero: 191 desc: Ciriguela, crua energia: 76 proteina: 1,4
+numero: 192 desc: Cupuaçu, cru energia: 49 proteina: 1,2
+numero: 193 desc: Cupuaçu, polpa, congelada energia: 49 proteina: 0,8
+numero: 194 desc: Figo, cru energia: 41 proteina: 1,0
+numero: 195 desc: Figo, enlatado, em calda energia: 184 proteina: 0,6
+numero: 196 desc: Fruta-pão, crua energia: 67 proteina: 1,1
+numero: 197 desc: Goiaba, branca, com casca, crua energia: 52 proteina: 0,9
+numero: 198 desc: Goiaba, doce em pasta energia: 269 proteina: 0,6
+numero: 199 desc: Goiaba, doce, cascão energia: 286 proteina: 0,4
+numero: 200 desc: Goiaba, vermelha, com casca, crua energia: 54 proteina: 1,1
+numero: 201 desc: Graviola, crua energia: 62 proteina: 0,8
+numero: 202 desc: Graviola, polpa, congelada energia: 38 proteina: 0,6
+numero: 203 desc: Jabuticaba, crua energia: 58 proteina: 0,6
+numero: 204 desc: Jaca, crua energia: 88 proteina: 1,4
+numero: 205 desc: Jambo, cru energia: 27 proteina: 0,9
+numero: 206 desc: Jamelão, cru energia: 41 proteina: 0,5
+numero: 207 desc: Kiwi, cru energia: 51 proteina: 1,3
+numero: 208 desc: Laranja, baía, crua energia: 45 proteina: 1,0
+numero: 209 desc: Laranja, baía, suco energia: 37 proteina: 0,7
+numero: 210 desc: Laranja, da terra, crua energia: 51 proteina: 1,1
+numero: 211 desc: Laranja, da terra, suco energia: 41 proteina: 0,7
+numero: 212 desc: Laranja, lima, crua energia: 46 proteina: 1,1
+numero: 213 desc: Laranja, lima, suco energia: 39 proteina: 0,7
+numero: 214 desc: Laranja, pêra, crua energia: 37 proteina: 1,0
+numero: 215 desc: Laranja, pêra, suco energia: 33 proteina: 0,7
+numero: 216 desc: Laranja, valência, crua energia: 46 proteina: 0,8
+numero: 217 desc: Laranja, valência, suco energia: 36 proteina: 0,5
+numero: 218 desc: Limão, cravo, suco energia: 14 proteina: 0,3
+numero: 219 desc: Limão, galego, suco energia: 22 proteina: 0,6
+numero: 220 desc: Limão, tahiti, cru energia: 32 proteina: 0,9
+numero: 221 desc: Maçã, Argentina, com casca, crua energia: 63 proteina: 0,2
+numero: 222 desc: Maçã, Fuji, com casca, crua energia: 56 proteina: 0,3
+numero: 223 desc: Macaúba, crua energia: 404 proteina: 2,1
+numero: 224 desc: Mamão, doce em calda, drenado energia: 196 proteina: 0,2
+numero: 225 desc: Mamão, Formosa, cru energia: 45 proteina: 0,8
+numero: 226 desc: Mamão, Papaia, cru energia: 40 proteina: 0,5
+numero: 227 desc: Mamão verde, doce em calda, drenado energia: 209 proteina: 0,3
+numero: 228 desc: Manga, Haden, crua energia: 64 proteina: 0,4
+numero: 229 desc: Manga, Palmer, crua energia: 72 proteina: 0,4
+numero: 230 desc: Manga, polpa, congelada energia: 48 proteina: 0,4
+numero: 231 desc: Manga, Tommy Atkins, crua energia: 51 proteina: 0,9
+numero: 232 desc: Maracujá, cru energia: 68 proteina: 2,0
+numero: 233 desc: Maracujá, polpa, congelada energia: 39 proteina: 0,8
+numero: 234 desc: Maracujá, suco concentrado, envasado energia: 42 proteina: 0,8
+numero: 235 desc: Melancia, crua energia: 33 proteina: 0,9
+numero: 236 desc: Melão, cru energia: 29 proteina: 0,7
+numero: 237 desc: Mexerica, Murcote, crua energia: 58 proteina: 0,9
+numero: 238 desc: Mexerica, Rio, crua energia: 37 proteina: 0,7
+numero: 239 desc: Morango, cru energia: 30 proteina: 0,9
+numero: 240 desc: Nêspera, crua energia: 43 proteina: 0,3
+numero: 241 desc: Pequi, cru energia: 205 proteina: 2,3
+numero: 242 desc: Pêra, Park, crua energia: 61 proteina: 0,2
+numero: 243 desc: Pêra, Williams, crua energia: 53 proteina: 0,6
+numero: 244 desc: Pêssego, Aurora, cru energia: 36 proteina: 0,8
+numero: 245 desc: Pêssego, enlatado, em calda energia: 63 proteina: 0,7
+numero: 246 desc: Pinha, crua energia: 88 proteina: 1,5
+numero: 247 desc: Pitanga, crua energia: 41 proteina: 0,9
+numero: 248 desc: Pitanga, polpa, congelada energia: 19 proteina: 0,3
+numero: 249 desc: Romã, crua energia: 56 proteina: 0,4
+numero: 250 desc: Tamarindo, cru energia: 276 proteina: 3,2
+numero: 251 desc: Tangerina, Poncã, crua energia: 38 proteina: 0,8
+numero: 252 desc: Tangerina, Poncã, suco energia: 36 proteina: 0,5
+numero: 253 desc: Tucumã, cru energia: 262 proteina: 2,1
+numero: 254 desc: Umbu, cru energia: 37 proteina: 0,8
+numero: 255 desc: Umbu, polpa, congelada energia: 34 proteina: 0,5
+numero: 256 desc: Uva, Itália, crua energia: 53 proteina: 0,7
+numero: 257 desc: Uva, Rubi, crua energia: 49 proteina: 0,6
+numero: 258 desc: Uva, suco concentrado, envasado energia: 58 proteina: Tr
+
+Categoria: Gorduras e óleos
+numero: 259 desc: Azeite, de dendê energia: 884 proteina: NA
+numero: 260 desc: Azeite, de oliva, extra virgem energia: 884 proteina: NA
+numero: 261 desc: Manteiga, com sal energia: 726 proteina: 0,4
+numero: 262 desc: Manteiga, sem sal energia: 758 proteina: 0,4
+numero: 263 desc: Margarina, com óleo hidrogenado, com sal (65% de lipídeos) energia: 596 proteina: Tr
+numero: 264 desc: Margarina, com óleo hidrogenado, sem sal (80% de lipídeos) energia: 723 proteina: Tr
+numero: 265 desc: Margarina, com óleo interesterificado, com sal (65%de lipídeos) energia: 594 proteina: Tr
+numero: 266 desc: Margarina, com óleo interesterificado, sem sal (65% de lipídeos) energia: 593 proteina: Tr
+numero: 267 desc: Óleo, de babaçu energia: 884 proteina: NA
+numero: 268 desc: Óleo, de canola energia: 884 proteina: NA
+numero: 269 desc: Óleo, de girassol energia: 884 proteina: NA
+numero: 270 desc: Óleo, de milho energia: 884 proteina: NA
+numero: 271 desc: Óleo, de pequi energia: 884 proteina: NA
+numero: 272 desc: Óleo, de soja energia: 884 proteina: NA
+
+Categoria: Pescados e frutos do mar
+numero: 273 desc: Abadejo, filé, congelado, assado energia: 112 proteina: 23,5
+numero: 274 desc: Abadejo, filé, congelado,cozido energia: 91 proteina: 19,3
+numero: 275 desc: Abadejo, filé, congelado, cru energia: 59 proteina: 13,1
+numero: 276 desc: Abadejo, filé, congelado, grelhado energia: 130 proteina: 27,6
+numero: 277 desc: Atum, conserva em óleo energia: 166 proteina: 26,2
+numero: 278 desc: Atum, fresco, cru energia: 118 proteina: 25,7
+numero: 279 desc: Bacalhau, salgado, cru energia: 136 proteina: 29,0
+numero: 280 desc: Bacalhau, salgado, refogado energia: 140 proteina: 24,0
+numero: 281 desc: Cação, posta, com farinha de trigo, frita energia: 208 proteina: 25,0
+numero: 282 desc: Cação, posta, cozida energia: 116 proteina: 25,6
+numero: 283 desc: Cação, posta, crua energia: 83 proteina: 17,9
+numero: 284 desc: Camarão, Rio Grande, grande, cozido energia: 90 proteina: 19,0
+numero: 285 desc: Camarão, Rio Grande, grande, cru energia: 47 proteina: 10,0
+numero: 286 desc: Camarão, Sete Barbas, sem cabeça, com casca, frito energia: 231 proteina: 18,4
+numero: 287 desc: Caranguejo, cozido energia: 83 proteina: 18,5
+numero: 288 desc: Corimba, cru energia: 128 proteina: 17,4
+numero: 289 desc: Corimbatá, assado energia: 261 proteina: 19,9
+numero: 290 desc: Corimbatá, cozido energia: 239 proteina: 20,1
+numero: 291 desc: Corvina de água doce, crua energia: 101 proteina: 18,9
+numero: 292 desc: Corvina do mar, crua energia: 94 proteina: 18,6
+numero: 293 desc: Corvina grande, assada energia: 147 proteina: 26,8
+numero: 294 desc: Corvina grande, cozida energia: 100 proteina: 23,4
+numero: 295 desc: Dourada de água doce, fresca energia: 131 proteina: 18,8
+numero: 296 desc: Lambari, congelado, cru energia: 131 proteina: 16,8
+numero: 297 desc: Lambari, congelado, frito energia: 327 proteina: 28,4
+numero: 298 desc: Lambari, fresco, cru energia: 152 proteina: 15,7
+numero: 299 desc: Manjuba, com farinha de trigo, frita energia: 344 proteina: 23,5
+numero: 300 desc: Manjuba, frita energia: 349 proteina: 30,1
+numero: 301 desc: Merluza, filé, assado energia: 122 proteina: 26,6
+numero: 302 desc: Merluza, filé, cru energia: 89 proteina: 16,6
+numero: 303 desc: Merluza, filé, frito energia: 192 proteina: 26,9
+numero: 304 desc: Pescada, branca, crua energia: 111 proteina: 16,3
+numero: 305 desc: Pescada, branca, frita energia: 223 proteina: 27,4
+numero: 306 desc: Pescada, filé, com farinha de trigo, frito energia: 283 proteina: 21,4
+numero: 307 desc: Pescada, filé, cru energia: 107 proteina: 16,7
+numero: 308 desc: Pescada, filé, frito energia: 154 proteina: 28,6
+numero: 309 desc: Pescada, filé, molho escabeche energia: 142 proteina: 11,8
+numero: 310 desc: Pescadinha, crua energia: 76 proteina: 15,5
+numero: 311 desc: Pintado, assado energia: 192 proteina: 36,5
+numero: 312 desc: Pintado, cru energia: 91 proteina: 18,6
+numero: 313 desc: Pintado, grelhado energia: 152 proteina: 30,8
+numero: 314 desc: Porquinho, cru energia: 93 proteina: 20,5
+numero: 315 desc: Salmão, filé, com pele, fresco, grelhado energia: 229 proteina: 23,9
+numero: 316 desc: Salmão, sem pele, fresco, cru energia: 170 proteina: 19,3
+numero: 317 desc: Salmão, sem pele, fresco, grelhado energia: 243 proteina: 26,1
+numero: 318 desc: Sardinha, assada energia: 164 proteina: 32,2
+numero: 319 desc: Sardinha, conserva em óleo energia: 285 proteina: 15,9
+numero: 320 desc: Sardinha, frita energia: 257 proteina: 33,4
+numero: 321 desc: Sardinha, inteira, crua energia: 114 proteina: 21,1
+numero: 322 desc: Tucunaré, filé, congelado, cru energia: 88 proteina: 18,0
+
+Categoria: Carnes e derivados
+numero: 323 desc: Apresuntado energia: 129 proteina: 13,5
+numero: 324 desc: Caldo de carne, tablete energia: 241 proteina: 7,8
+numero: 325 desc: Caldo de galinha, tablete energia: 251 proteina: 6,3
+numero: 326 desc: Carne, bovina, acém, moído, cozido energia: 212 proteina: 26,7
+numero: 327 desc: Carne, bovina, acém, moído, cru energia: 137 proteina: 19,4
+numero: 328 desc: Carne, bovina, acém, sem gordura, cozido energia: 215 proteina: 27,3
+numero: 329 desc: Carne, bovina, acém, sem gordura, cru energia: 144 proteina: 20,8
+numero: 330 desc: Carne, bovina, almôndegas, cruas energia: 189 proteina: 12,3
+numero: 331 desc: Carne, bovina, almôndegas, fritas energia: 272 proteina: 18,2
+numero: 332 desc: Carne, bovina, bucho, cozido energia: 133 proteina: 21,6
+numero: 333 desc: Carne, bovina, bucho, cru energia: 137 proteina: 20,5
+numero: 334 desc: Carne, bovina, capa de contra-filé, com gordura, crua energia: 217 proteina: 19,2
+numero: 335 desc: Carne, bovina, capa de contra-filé, com gordura, grelhada energia: 312 proteina: 30,7
+numero: 336 desc: Carne, bovina, capa de contra-filé, sem gordura, crua energia: 131 proteina: 21,5
+numero: 337 desc: Carne, bovina, capa de contra-filé, sem gordura, grelhada energia: 239 proteina: 35,1
+numero: 338 desc: Carne, bovina, charque, cozido energia: 263 proteina: 36,4
+numero: 339 desc: Carne, bovina, charque, cru energia: 249 proteina: 22,7
+numero: 340 desc: Carne, bovina, contra-filé, à milanesa energia: 352 proteina: 20,6
+numero: 341 desc: Carne, bovina, contra-filé de costela, cru energia: 202 proteina: 19,8
+numero: 342 desc: Carne, bovina, contra-filé de costela, grelhado energia: 275 proteina: 29,9
+numero: 343 desc: Carne, bovina, contra-filé, com gordura, cru energia: 206 proteina: 21,2
+numero: 344 desc: Carne, bovina, contra-filé, com gordura, grelhado energia: 278 proteina: 32,4
+numero: 345 desc: Carne, bovina, contra-filé, sem gordura, cru energia: 157 proteina: 24,0
+numero: 346 desc: Carne, bovina, contra-filé, sem gordura, grelhado energia: 194 proteina: 35,9
+numero: 347 desc: Carne, bovina, costela, assada energia: 373 proteina: 28,8
+numero: 348 desc: Carne, bovina, costela, crua energia: 358 proteina: 16,7
+numero: 349 desc: Carne, bovina, coxão duro, sem gordura, cozido energia: 217 proteina: 31,9
+numero: 350 desc: Carne, bovina, coxão duro, sem gordura, cru energia: 148 proteina: 21,5
+numero: 351 desc: Carne, bovina, coxão mole, sem gordura, cozido energia: 219 proteina: 32,4
+numero: 352 desc: Carne, bovina, coxão mole, sem gordura, cru energia: 169 proteina: 21,2
+numero: 353 desc: Carne, bovina, cupim, assado energia: 330 proteina: 28,6
+numero: 354 desc: Carne, bovina, cupim, cru energia: 221 proteina: 19,5
+numero: 355 desc: Carne, bovina, fígado, cru energia: 141 proteina: 20,7
+numero: 356 desc: Carne, bovina, fígado, grelhado energia: 225 proteina: 29,9
+numero: 357 desc: Carne, bovina, filé mingnon, sem gordura, cru energia: 143 proteina: 21,6
+numero: 358 desc: Carne, bovina, filé mingnon, sem gordura, grelhado energia: 220 proteina: 32,8
+numero: 359 desc: Carne, bovina, flanco, sem gordura, cozido energia: 196 proteina: 29,4
+numero: 360 desc: Carne, bovina, flanco, sem gordura, cru energia: 141 proteina: 20,0
+numero: 361 desc: Carne, bovina, fraldinha, com gordura, cozida energia: 338 proteina: 24,2
+numero: 362 desc: Carne, bovina, fraldinha, com gordura, crua energia: 221 proteina: 17,6
+numero: 363 desc: Carne, bovina, lagarto, cozido energia: 222 proteina: 32,9
+numero: 364 desc: Carne, bovina, lagarto, cru energia: 135 proteina: 20,5
+numero: 365 desc: Carne, bovina, língua, cozida energia: 315 proteina: 21,4
+numero: 366 desc: Carne, bovina, língua, crua energia: 215 proteina: 17,1
+numero: 367 desc: Carne, bovina, maminha, crua energia: 153 proteina: 20,9
+numero: 368 desc: Carne, bovina, maminha, grelhada energia: 153 proteina: 30,7
+numero: 369 desc: Carne, bovina, miolo de alcatra, sem gordura, cru energia: 163 proteina: 21,6
+numero: 370 desc: Carne, bovina, miolo de alcatra, sem gordura, grelhado energia: 241 proteina: 31,9
+numero: 371 desc: Carne, bovina, músculo, sem gordura, cozido energia: 194 proteina: 31,2
+numero: 372 desc: Carne, bovina, músculo, sem gordura, cru energia: 142 proteina: 21,6
+numero: 373 desc: Carne, bovina, paleta, com gordura, crua energia: 159 proteina: 21,4
+numero: 374 desc: Carne, bovina, paleta, sem gordura, cozida energia: 194 proteina: 29,7
+numero: 375 desc: Carne, bovina, paleta, sem gordura, crua energia: 141 proteina: 21,0
+numero: 376 desc: Carne, bovina, patinho, sem gordura, cru energia: 133 proteina: 21,7
+numero: 377 desc: Carne, bovina, patinho, sem gordura, grelhado energia: 219 proteina: 35,9
+numero: 378 desc: Carne, bovina, peito, sem gordura, cozido energia: 338 proteina: 22,2
+numero: 379 desc: Carne, bovina, peito, sem gordura, cru energia: 259 proteina: 17,6
+numero: 380 desc: Carne, bovina, picanha, com gordura, crua energia: 213 proteina: 18,8
+numero: 381 desc: Carne, bovina, picanha, com gordura, grelhada energia: 289 proteina: 26,4
+numero: 382 desc: Carne, bovina, picanha, sem gordura, crua energia: 134 proteina: 21,3
+numero: 383 desc: Carne, bovina, picanha, sem gordura, grelhada energia: 238 proteina: 31,9
+numero: 384 desc: Carne, bovina, seca, cozida energia: 313 proteina: 26,9
+numero: 385 desc: Carne, bovina, seca, crua energia: 313 proteina: 19,7
+numero: 386 desc: Coxinha de frango, frita energia: 283 proteina: 9,6
+numero: 387 desc: Croquete, de carne, cru energia: 246 proteina: 12,0
+numero: 388 desc: Croquete, de carne, frito energia: 347 proteina: 16,9
+numero: 389 desc: Empada de frango, pré-cozida, assada energia: 358 proteina: 6,9
+numero: 390 desc: Empada, de frango, pré-cozida energia: 377 proteina: 7,3
+numero: 391 desc: Frango, asa, com pele, crua energia: 213 proteina: 18,1
+numero: 392 desc: Frango, caipira, inteiro, com pele, cozido energia: 243 proteina: 23,9
+numero: 393 desc: Frango, caipira, inteiro, sem pele, cozido energia: 196 proteina: 29,6
+numero: 394 desc: Frango, coração, cru energia: 222 proteina: 12,6
+numero: 395 desc: Frango, coração, grelhado energia: 207 proteina: 22,4
+numero: 396 desc: Frango, coxa, com pele, assada energia: 215 proteina: 28,5
+numero: 397 desc: Frango, coxa, com pele, crua energia: 161 proteina: 17,1
+numero: 398 desc: Frango, coxa, sem pele, cozida energia: 167 proteina: 26,9
+numero: 399 desc: Frango, coxa, sem pele, crua energia: 120 proteina: 17,8
+numero: 400 desc: Frango, fígado, cru energia: 106 proteina: 17,6
+numero: 401 desc: Frango, filé, à milanesa energia: 221 proteina: 28,5
+numero: 402 desc: Frango, inteiro, com pele, cru energia: 226 proteina: 16,4
+numero: 403 desc: Frango, inteiro, sem pele, assado energia: 187 proteina: 28,0
+numero: 404 desc: Frango, inteiro, sem pele, cozido energia: 170 proteina: 25,0
+numero: 405 desc: Frango, inteiro, sem pele, cru energia: 129 proteina: 20,6
+numero: 406 desc: Frango, peito, com pele, assado energia: 212 proteina: 33,4
+numero: 407 desc: Frango, peito, com pele, cru energia: 149 proteina: 20,8
+numero: 408 desc: Frango, peito, sem pele, cozido energia: 163 proteina: 31,5
+numero: 409 desc: Frango, peito, sem pele, cru energia: 119 proteina: 21,5
+numero: 410 desc: Frango, peito, sem pele, grelhado energia: 159 proteina: 32,0
+numero: 411 desc: Frango, sobrecoxa, com pele, assada energia: 260 proteina: 28,7
+numero: 412 desc: Frango, sobrecoxa, com pele, crua energia: 255 proteina: 15,5
+numero: 413 desc: Frango, sobrecoxa, sem pele, assada energia: 233 proteina: 29,2
+numero: 414 desc: Frango, sobrecoxa, sem pele, crua energia: 162 proteina: 17,6
+numero: 415 desc: Hambúrguer, bovino, cru energia: 215 proteina: 13,2
+numero: 416 desc: Hambúrguer, bovino, frito energia: 258 proteina: 20,0
+numero: 417 desc: Hambúrguer, bovino, grelhado energia: 210 proteina: 13,2
+numero: 418 desc: Lingüiça, frango, crua energia: 218 proteina: 14,2
+numero: 419 desc: Lingüiça, frango, frita energia: 245 proteina: 18,3
+numero: 420 desc: Lingüiça, frango, grelhada energia: 244 proteina: 18,2
+numero: 421 desc: Lingüiça, porco, crua energia: 227 proteina: 16,1
+numero: 422 desc: Lingüiça, porco, frita energia: 280 proteina: 20,5
+numero: 423 desc: Lingüiça, porco, grelhada energia: 296 proteina: 23,2
+numero: 424 desc: Mortadela energia: 269 proteina: 12,0
+numero: 425 desc: Peru, congelado, assado energia: 163 proteina: 26,2
+numero: 426 desc: Peru, congelado, cru energia: 94 proteina: 18,1
+numero: 427 desc: Porco, bisteca, crua energia: 164 proteina: 21,5
+numero: 428 desc: Porco, bisteca, frita energia: 311 proteina: 33,7
+numero: 429 desc: Porco, bisteca, grelhada energia: 280 proteina: 28,9
+numero: 430 desc: Porco, costela, assada energia: 402 proteina: 30,2
+numero: 431 desc: Porco, costela, crua energia: 256 proteina: 18,0
+numero: 432 desc: Porco, lombo, assado energia: 210 proteina: 35,7
+numero: 433 desc: Porco, lombo, cru energia: 176 proteina: 22,6
+numero: 434 desc: Porco, orelha, salgada, crua energia: 258 proteina: 18,5
+numero: 435 desc: Porco, pernil, assado energia: 262 proteina: 32,1
+numero: 436 desc: Porco, pernil, cru energia: 186 proteina: 20,1
+numero: 437 desc: Porco, rabo, salgado, cru energia: 377 proteina: 15,6
+numero: 438 desc: Presunto, com capa de gordura energia: 128 proteina: 14,4
+numero: 439 desc: Presunto, sem capa de gordura energia: 94 proteina: 14,3
+numero: 440 desc: Quibe, assado energia: 136 proteina: 14,6
+numero: 441 desc: Quibe, cru energia: 109 proteina: 12,4
+numero: 442 desc: Quibe, frito energia: 254 proteina: 14,9
+numero: 443 desc: Salame energia: 398 proteina: 25,8
+numero: 444 desc: Toucinho, cru energia: 593 proteina: 11,5
+numero: 445 desc: Toucinho, frito energia: 697 proteina: 27,3
+
+Categoria: Leite e derivados
+numero: 446 desc: Bebida láctea, pêssego energia: 55 proteina: 2,1
+numero: 447 desc: Creme de Leite energia: 221 proteina: 1,5
+numero: 448 desc: Iogurte, natural energia: 51 proteina: 4,1
+numero: 449 desc: Iogurte, natural, desnatado energia: 41 proteina: 3,8
+numero: 450 desc: Iogurte, sabor abacaxi energia: * proteina: *
+numero: 451 desc: Iogurte, sabor morango energia: 70 proteina: 2,7
+numero: 452 desc: Iogurte, sabor pêssego energia: 68 proteina: 2,5
+numero: 453 desc: Leite, condensado energia: 313 proteina: 7,7
+numero: 454 desc: Leite, de cabra energia: 66 proteina: 3,1
+numero: 455 desc: Leite, de vaca, achocolatado energia: 83 proteina: 2,1
+numero: 456 desc: Leite, de vaca, desnatado, pó energia: 362 proteina: 34,7
+numero: 457 desc: Leite, de vaca, desnatado, UHT energia: * proteina: *
+numero: 458 desc: Leite, de vaca, integral energia: * proteina: *
+numero: 459 desc: Leite, de vaca, integral, pó energia: 497 proteina: 25,4
+numero: 460 desc: Leite, fermentado energia: 70 proteina: 1,9
+numero: 461 desc: Queijo, minas, frescal energia: 264 proteina: 17,4
+numero: 462 desc: Queijo, minas, meia cura energia: 321 proteina: 21,2
+numero: 463 desc: Queijo, mozarela energia: 330 proteina: 22,6
+numero: 464 desc: Queijo, parmesão energia: 453 proteina: 35,6
+numero: 465 desc: Queijo, pasteurizado energia: 303 proteina: 9,4
+numero: 466 desc: Queijo, petit suisse, morango energia: 121 proteina: 5,8
+numero: 467 desc: Queijo, prato energia: 360 proteina: 22,7
+numero: 468 desc: Queijo, requeijão, cremoso energia: 257 proteina: 9,6
+numero: 469 desc: Queijo, ricota energia: 140 proteina: 12,6
+
+Categoria: Bebidas (alcoólicas e não alcoólicas)
+numero: 470 desc: Bebida isotônica, sabores variados energia: 26 proteina: 0,0
+numero: 471 desc: Café, infusão 10% energia: 9 proteina: 0,7
+numero: 472 desc: Cana, aguardente 1 energia: 902 proteina: NA
+numero: 473 desc: Cana, caldo de energia: 65 proteina: Tr
+numero: 474 desc: Cerveja, pilsen 2 energia: 41 proteina: 0,6
+numero: 475 desc: Chá, erva-doce, infusão 5% energia: 1 proteina: 0,0
+numero: 476 desc: Chá, mate, infusão 5% energia: 3 proteina: 0,0
+numero: 477 desc: Chá, preto, infusão 5% energia: 2 proteina: 0,0
+numero: 478 desc: Coco, água de energia: 22 proteina: 0,0
+numero: 479 desc: Refrigerante, tipo água tônica energia: 31 proteina: 0,0
+numero: 480 desc: Refrigerante, tipo cola energia: 34 proteina: 0,0
+numero: 481 desc: Refrigerante, tipo guaraná energia: 39 proteina: 0,0
+numero: 482 desc: Refrigerante, tipo laranja energia: 46 proteina: 0,0
+numero: 483 desc: Refrigerante, tipo limão energia: 40 proteina: 0,0
+
+Categoria: Ovos e derivados
+numero: 484 desc: Omelete, de queijo energia: 268 proteina: 15,6
+numero: 485 desc: Ovo, de codorna, inteiro, cru energia: 177 proteina: 13,7
+numero: 486 desc: Ovo, de galinha, clara, cozida/10minutos energia: 59 proteina: 13,4
+numero: 487 desc: Ovo, de galinha, gema, cozida/10minutos energia: 353 proteina: 15,9
+numero: 488 desc: Ovo, de galinha, inteiro, cozido/10minutos energia: 146 proteina: 13,3
+numero: 489 desc: Ovo, de galinha, inteiro, cru energia: 143 proteina: 13,0
+numero: 490 desc: Ovo, de galinha, inteiro, frito energia: 240 proteina: 15,6
+
+Categoria: Produtos açucarados
+numero: 491 desc: Achocolatado, pó energia: 401 proteina: 4,2
+numero: 492 desc: Açúcar, cristal energia: 387 proteina: 0,3
+numero: 493 desc: Açúcar, mascavo energia: 369 proteina: 0,8
+numero: 494 desc: Açúcar, refinado energia: 387 proteina: 0,3
+numero: 495 desc: Chocolate, ao leite energia: 540 proteina: 7,2
+numero: 496 desc: Chocolate, ao leite, com castanha do Pará energia: 559 proteina: 7,4
+numero: 497 desc: Chocolate, ao leite, dietético energia: 557 proteina: 6,9
+numero: 498 desc: Chocolate, meio amargo energia: 475 proteina: 4,9
+numero: 499 desc: Cocada branca energia: 449 proteina: 1,1
+numero: 500 desc: Doce, de abóbora, cremoso energia: 199 proteina: 0,9
+numero: 501 desc: Doce, de leite, cremoso energia: 306 proteina: 5,5
+numero: 502 desc: Geléia, mocotó, natural energia: 106 proteina: 2,1
+numero: 503 desc: Glicose de milho energia: 292 proteina: 0,0
+numero: 504 desc: Maria mole energia: 301 proteina: 3,8
+numero: 505 desc: Maria mole, coco queimado energia: 307 proteina: 3,9
+numero: 506 desc: Marmelada energia: 257 proteina: 0,4
+numero: 507 desc: Mel, de abelha energia: 309 proteina: 0,0
+numero: 508 desc: Melado energia: 297 proteina: 0,0
+numero: 509 desc: Quindim energia: 411 proteina: 4,7
+numero: 510 desc: Rapadura energia: 352 proteina: 1,0
+
+Categoria: Miscelâneas
+numero: 511 desc: Café, pó, torrado energia: 419 proteina: 14,7
+numero: 512 desc: Capuccino, pó energia: 417 proteina: 11,3
+numero: 513 desc: Fermento em pó, químico energia: 90 proteina: 0,5
+numero: 514 desc: Fermento, biológico, levedura, tablete energia: 90 proteina: 17,0
+numero: 515 desc: Gelatina, sabores variados, pó energia: 380 proteina: 8,9
+numero: 516 desc: Sal, dietético energia: NA proteina: NA
+numero: 517 desc: Sal, grosso energia: NA proteina: NA
+numero: 518 desc: Shoyu energia: 61 proteina: 3,3
+numero: 519 desc: Tempero a base de sal energia: 21 proteina: 2,7
+
+Categoria: Outros alimentos industrializados
+numero: 520 desc: Azeitona, preta, conserva energia: 194 proteina: 1,2
+numero: 521 desc: Azeitona, verde, conserva energia: 137 proteina: 0,9
+numero: 522 desc: Chantilly, spray, com gordura vegetal energia: 315 proteina: 0,5
+numero: 523 desc: Leite, de coco energia: 166 proteina: 1,0
+numero: 524 desc: Maionese, tradicional com ovos energia: 302 proteina: 0,6
+
+Categoria: Alimentos preparados
+numero: 525 desc: Acarajé energia: 289 proteina: 8,3
+numero: 526 desc: Arroz carreteiro energia: 154 proteina: 10,8
+numero: 527 desc: Baião de dois, arroz e feijão-de-corda energia: 136 proteina: 6,2
+numero: 528 desc: Barreado energia: 165 proteina: 18,3
+numero: 529 desc: Bife à cavalo, com contra filé energia: 291 proteina: 23,7
+numero: 530 desc: Bolinho de arroz energia: 274 proteina: 8,0
+numero: 531 desc: Camarão à baiana energia: 101 proteina: 7,9
+numero: 532 desc: Charuto, de repolho energia: 78 proteina: 6,8
+numero: 533 desc: Cuscuz, de milho, cozido com sal energia: 113 proteina: 2,2
+numero: 534 desc: Cuscuz, paulista energia: 142 proteina: 2,6
+numero: 535 desc: Cuxá, molho energia: 80 proteina: 5,6
+numero: 536 desc: Dobradinha energia: 125 proteina: 19,8
+numero: 537 desc: Estrogonofe de carne energia: 173 proteina: 15,0
+numero: 538 desc: Estrogonofe de frango energia: 157 proteina: 17,6
+numero: 539 desc: Feijão tropeiro mineiro energia: 152 proteina: 10,2
+numero: 540 desc: Feijoada energia: 117 proteina: 8,7
+numero: 541 desc: Frango, com açafrão energia: 113 proteina: 9,7
+numero: 542 desc: Macarrão, molho bolognesa energia: 120 proteina: 4,9
+numero: 543 desc: Maniçoba energia: 134 proteina: 10,0
+numero: 544 desc: Quibebe energia: 86 proteina: 8,6
+numero: 545 desc: Salada, de legumes, com maionese energia: 96 proteina: 1,1
+numero: 546 desc: Salada, de legumes, cozida no vapor energia: 35 proteina: 2,0
+numero: 547 desc: Salpicão, de frango energia: 148 proteina: 13,9
+numero: 548 desc: Sarapatel energia: 123 proteina: 18,5
+numero: 549 desc: Tabule energia: 57 proteina: 2,0
+numero: 550 desc: Tacacá energia: 47 proteina: 7,0
+numero: 551 desc: Tapioca, com manteiga energia: 348 proteina: 0,1
+numero: 552 desc: Tucupi, com pimenta-de-cheiro energia: 27 proteina: 2,1
+numero: 553 desc: Vaca atolada energia: 145 proteina: 5,1
+numero: 554 desc: Vatapá energia: 255 proteina: 6,0
+numero: 555 desc: Virado à paulista energia: 307 proteina: 10,2
+numero: 556 desc: Yakisoba energia: 113 proteina: 7,5
+
+Categoria: Leguminosas e derivados
+numero: 557 desc: Amendoim, grão, cru energia: 544 proteina: 27,2
+numero: 558 desc: Amendoim, torrado, salgado energia: 606 proteina: 22,5
+numero: 559 desc: Ervilha, em vagem energia: 88 proteina: 7,5
+numero: 560 desc: Ervilha, enlatada, drenada energia: 74 proteina: 4,6
+numero: 561 desc: Feijão, carioca, cozido energia: 76 proteina: 4,8
+numero: 562 desc: Feijão, carioca, cru energia: 329 proteina: 20,0
+numero: 563 desc: Feijão, fradinho, cozido energia: 78 proteina: 5,1
+numero: 564 desc: Feijão, fradinho, cru energia: 339 proteina: 20,2
+numero: 565 desc: Feijão, jalo, cozido energia: 93 proteina: 6,1
+numero: 566 desc: Feijão, jalo, cru energia: 328 proteina: 20,1
+numero: 567 desc: Feijão, preto, cozido energia: 77 proteina: 4,5
+numero: 568 desc: Feijão, preto, cru energia: 324 proteina: 21,3
+numero: 569 desc: Feijão, rajado, cozido energia: 85 proteina: 5,5
+numero: 570 desc: Feijão, rajado, cru energia: 326 proteina: 17,3
+numero: 571 desc: Feijão, rosinha, cozido energia: 68 proteina: 4,5
+numero: 572 desc: Feijão, rosinha, cru energia: 337 proteina: 20,9
+numero: 573 desc: Feijão, roxo, cozido energia: 77 proteina: 5,7
+numero: 574 desc: Feijão, roxo, cru energia: 331 proteina: 22,2
+numero: 575 desc: Grão-de-bico, cru energia: 355 proteina: 21,2
+numero: 576 desc: Guandu, cru energia: 344 proteina: 19,0
+numero: 577 desc: Lentilha, cozida energia: 93 proteina: 6,3
+numero: 578 desc: Lentilha, crua energia: 339 proteina: 23,2
+numero: 579 desc: Paçoca, amendoim energia: 487 proteina: 16,0
+numero: 580 desc: Pé-de-moleque, amendoim energia: 503 proteina: 13,2
+numero: 581 desc: Soja, farinha energia: 404 proteina: 36,0
+numero: 582 desc: Soja, extrato solúvel, natural, fluido energia: 39 proteina: 2,4
+numero: 583 desc: Soja, extrato solúvel, pó energia: 459 proteina: 35,7
+numero: 584 desc: Soja, queijo (tofu) energia: 64 proteina: 6,6
+numero: 585 desc: Tremoço, cru energia: 381 proteina: 33,6
+numero: 586 desc: Tremoço, em conserva energia: 121 proteina: 11,1
+
+Categoria: Nozes e sementes
+numero: 587 desc: Amêndoa, torrada, salgada energia: 581 proteina: 18,6
+numero: 588 desc: Castanha-de-caju, torrada, salgada energia: 570 proteina: 18,5
+numero: 589 desc: Castanha-do-Brasil, crua energia: 643 proteina: 14,5
+numero: 590 desc: Coco, cru energia: 406 proteina: 3,7
+numero: 591 desc: Coco, verde, cru energia: * proteina: *
+numero: 592 desc: Farinha, de mesocarpo de babaçu, crua energia: 329 proteina: 1,4
+numero: 593 desc: Gergelim, semente energia: 584 proteina: 21,2
+numero: 594 desc: Linhaça, semente energia: 495 proteina: 14,1
+numero: 595 desc: Pinhão, cozido energia: 174 proteina: 3,0
+numero: 596 desc: Pupunha, cozida energia: 219 proteina: 2,5
+numero: 597 desc: Noz, crua energia: 620 proteina: 14,0

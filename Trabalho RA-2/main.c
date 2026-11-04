@@ -25,8 +25,9 @@ int parser(FILE* oldFile){
     
     while((byte = fread(&c, 1, 1, oldFile)) > 0)total+=byte;
     rewind(oldFile);
-    char* buffer = (char*)malloc(total);
+    char* buffer = (char*)malloc(total +1);
     fread(buffer, total, 1, oldFile);
+    buffer[total] = '\0';
     int count = 0;
     char categoria[64];
     char numero[16];
@@ -45,7 +46,9 @@ int parser(FILE* oldFile){
                 categoria[index++] = *atual;
                 atual++;
                 
+                
             }
+            i = atual - buffer - 1;
 
 
         }
@@ -60,22 +63,27 @@ int parser(FILE* oldFile){
                 numero[index++] = *atual;
                 atual++;
                 
+                
             }
+            i = atual - buffer - 1;
         }
 
          else if (!strncmp(atual, "desc:", 5)){
             int index = 0;
             atual+=5;
+            i+=5;
             memset(desc, 0, sizeof(desc));
 
             while(verify(atual)){
                 desc[index] = *atual;
                 atual++;
                 index++;
+
             }
+            i = atual - buffer - 1;
         }
 
-         if (!strncmp(atual, "energia:", 8)){
+         else if (!strncmp(atual, "energia:", 8)){
             int index = 0;
             atual+=8;
             i += 8;
@@ -86,6 +94,7 @@ int parser(FILE* oldFile){
                 atual++;
                 
             }
+            i = atual - buffer - 1;
         }
 
          else if (!strncmp(atual, "proteina:", 9)){
@@ -95,11 +104,12 @@ int parser(FILE* oldFile){
             memset(proteina, 0, sizeof(proteina));
 
             while(verify(atual)){
-                if (*atual == ',')*atual = '.';
+                
                 proteina[index++] = *atual;
                 atual++;
                 
             }
+            i = atual - buffer - 1;
 
             Alimento A;
             strcpy(A.categoria, categoria);

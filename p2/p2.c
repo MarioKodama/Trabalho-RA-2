@@ -4,245 +4,31 @@
 #include <string.h>
 #include <locale.h>
 
-typedef struct { unsigned int numero; char desc[128]; unsigned int energia; float proteina; char categoria[64]; }Alimento;
-typedef struct Node_Alimento { Alimento* alimento; struct Node_Alimento* next; }Node_Alimento;
-typedef struct Node_Categoria { char nome[64]; Node_Alimento* alimentos; struct Node_Categoria* next;} Node_Categoria;
-typedef struct vector { void* data; int n;}vector;
-typedef struct Node_Tree { Alimento* alimento; struct Node_Tree* left; struct Node_Tree* right;}Node_Tree;
-
-int buffer_size = 600;
-
-vector filtrar_categorias(Node_Alimento* head) {
-	void* start = malloc(64);
-	vector seens;
-	seens.data = start;
-	
-
-	Node_Alimento* current = head;
-	strcpy(seens.data, current->alimento->categoria);
-	seens.n = 1;
-
-	while (current != NULL) {
-		int found = 0;
-		for (unsigned short i = 0; i < seens.n; i++) {
-			if (!strcmp(current->alimento->categoria, (char*)seens.data + i * 64)) {
-				found = 1;
-				break;
-			 }
-			
-		}
-		
-		if (!found) {
-			seens.n++;
-			seens.data = realloc(seens.data, 64 * seens.n);
-			strcpy((char*)seens.data + (seens.n - 1) * 64, current->alimento->categoria);
-			
-		}
-
-		current = current->next;
-	}
-
-
-	return seens;
-
-
-}
-
-Node_Alimento* inserir_node(Node_Alimento* tail, Alimento* alimento) {
-	
-	
-	Node_Alimento* node = (Node_Alimento*)malloc(sizeof(Node_Alimento));
-	node->alimento = alimento;
-	node->next = NULL; 
-
-	tail->next = node;
-
-	return node;
-
-
-
-
-
-}
-
-
-
-
-void order(char* data, int inicio, int fim) {
-
-	if (inicio >= fim)return;
-
-	int menor = inicio;
-
-	for (int i = inicio + 1; i <= fim; i++) {
-
-		char* atual = data + i * 64;
-		char* comparado = data + menor * 64;
-
-		if (strcmp(atual, comparado) < 0) {
-			menor = i;
-		}
-	}
-
-	char temp[64];
-
-	strcpy(temp, data + inicio * 64);
-	strcpy(data + inicio * 64, data + menor * 64);
-	strcpy(data + menor * 64, temp);
-
-	order(data, inicio + 1, fim);
-}
-
-Node_Alimento* criar_lista_alimento(char* categoria, Node_Alimento* head) {
-
-	Node_Alimento* atual = head;
-	Node_Alimento* tail = NULL;
-	Node_Alimento* heads = NULL;
-	
-	
-
-	while (atual != NULL) {
-		if (!tail) {
-			if (!strcmp(categoria, atual->alimento->categoria)) {
-				tail = malloc(sizeof(Node_Alimento));
-				tail->alimento = atual->alimento;
-				tail->next = NULL;
-				heads = tail;
-
-			}
-
-		}
-		else if (!strcmp(categoria, atual->alimento->categoria)) {
-			Node_Alimento* node = malloc(sizeof(Node_Alimento));
-			node->alimento = atual->alimento;
-			node->next = NULL;
-			tail->next = node;
-			tail = node;
-			
-		}
-
-		atual = atual->next;
-	}
-
-	return heads;
-
-}
-
-Node_Categoria* inserir_node_categoria(Node_Categoria* tail, char* categoria, Node_Alimento* head) {
-
-
-	Node_Categoria* node = (Node_Categoria*)malloc(sizeof(Node_Categoria));
-	strcpy(node->nome, categoria);
-	node->alimentos = criar_lista_alimento(node->nome, head);
-	node->next = NULL;
-
-	tail->next = node;
-
-	return node;
-
-
-
-
-
-}
-
-void montar_arvore_energia(Alimento* alimento, Node_Tree* root) {
-
-	Node_Tree* atual = root;
-	if (alimento->energia < atual->alimento->energia) {
-		if (atual->left == NULL) {
-			Node_Tree* node = malloc(sizeof(Node_Tree));
-			node->alimento = alimento;
-			node->left = NULL;
-			node->right = NULL;
-			atual->left = node;
-			atual = node;
-			return;
-
-		}
-		else {
-			montar_arvore_energia(alimento, atual->left);
-		}
-
-	}
-	else {
-		if (atual->right == NULL) {
-			Node_Tree* node = malloc(sizeof(Node_Tree));
-			node->alimento = alimento;
-			node->left = NULL;
-			node->right = NULL;
-			atual->right = node;
-			atual = node;
-			return;
-		}
-		else {
-			montar_arvore_energia(alimento, atual->right);
-		}
-	}
-
-
-
-}
-
-void montar_arvore_proteina(Alimento* alimento, Node_Tree* root) {
-
-	Node_Tree* atual = root;
-	if (alimento->proteina < atual->alimento->proteina) {
-		if (atual->left == NULL) {
-			Node_Tree* node = malloc(sizeof(Node_Tree));
-			node->alimento = alimento;
-			node->left = NULL;
-			node->right = NULL;
-			atual->left = node;
-			atual = node;
-			return;
-
-		}
-		else {
-			montar_arvore_proteina(alimento, atual->left);
-		}
-
-	}
-	else {
-		if (atual->right == NULL) {
-			Node_Tree* node = malloc(sizeof(Node_Tree));
-			node->alimento = alimento;
-			node->left = NULL;
-			node->right = NULL;
-			atual->right = node;
-			atual = node;
-			return;
-		}
-		else {
-			montar_arvore_proteina(alimento, atual->right);
-		}
-	}
-
-
-
-}
-
-void percorrer_energia(Node_Tree* root) {
-
-    if (root == NULL) return;
-
-    percorrer_energia(root->right);
-
-    printf("%d\n", root->alimento->energia);
-
-    percorrer_energia(root->left);
-}
-
-void percorrer_proteina(Node_Tree* root) {
-
-	if (root == NULL) return;
-
-	percorrer_proteina(root->right);
-
-	printf("%.2f\n", root->alimento->proteina);
-
-	percorrer_proteina(root->left);
-}
+#include "tipos.h"
+#include "lista.h"
+#include "arvore.h"
+#include "arquivo.h"
+
+// nomes das categorias exatamente como aparecem no dados.bin (com o espaco no inicio)
+const char* nome_categorias[MAX_CATEGORIAS] = {
+	" Alimentos preparados",
+" Bebidas (alcoólicas e não alcoólicas)",
+ " Carnes e derivados",
+ " Cereais e derivados",
+ " Frutas e derivados",
+ " Gorduras e óleos",
+ " Leguminosas e derivados",
+ " Leite e derivados",
+ " Miscelâneas",
+ " Nozes e sementes",
+ " Outros alimentos industrializados",
+" Ovos e derivados",
+ " Pescados e frutos do mar",
+ " Produtos açucarados",
+ " Verduras, hortaliças e derivados"
+};
+
+int buffer_size = 600; // capacidade maxima de alimentos lidos do arquivo
 
 int main(int argc, char* argv[]) {
 
@@ -253,94 +39,349 @@ int main(int argc, char* argv[]) {
 
 	unsigned int byte = 0;
 	unsigned int total = 0;
-	Alimento* buffer_alimento = (Alimento*)malloc(sizeof(Alimento) * buffer_size);
+	Alimento* buffer_alimento = (Alimento*)malloc(sizeof(Alimento) * buffer_size); //Alocamos memoria suficiente na heap para inserir os alimentos
 
-	while ((byte = fread(&buffer_alimento[total], sizeof(Alimento), 1, file)) > 0)total += byte;
 	
+	
+	while ((byte = fread(&buffer_alimento[total], sizeof(Alimento), 1, file)) > 0)total += byte; //Lemos do .bin as estruturas e mapeamos na heap
+
+	fclose(file);
+
+
+	//inicio da lista encadeada dos alimentos
 	Node_Alimento* head = (Node_Alimento*)malloc(sizeof(Node_Alimento));
 	head->alimento = &buffer_alimento[0];
 	head->next = NULL;
 
 	Node_Alimento* tail = head;
 
+	// liga o resto dos alimentos na lista
 	for (unsigned int i = 1; i < total; i++) {
 		tail = inserir_node(tail, &buffer_alimento[i]);
 	}
 
-	vector categorias = filtrar_categorias(head);
 
-	order(categorias.data, 0, categorias.n - 1);
-
+	//inicio da lista encadeada das categorias
 	Node_Categoria* head_categoria = (Node_Categoria*)malloc(sizeof(Node_Categoria));
-	strcpy(head_categoria->nome, categorias.data);
-	head_categoria->alimentos = criar_lista_alimento(head_categoria->nome, head);
+	strcpy(head_categoria->nome, nome_categorias[0]);
+	head_categoria->alimentos = criar_lista_alimento(nome_categorias[0], head);
 	head_categoria->next = NULL;
+	head_categoria->id = Alimentos_preparados;
 
 	Node_Alimento* tail_alimento  = head_categoria->alimentos;
 
 	Node_Categoria* tail_categoria = head_categoria;
 
-	for (unsigned int i = 1; i < categorias.n; i++) {
-		tail_categoria = inserir_node_categoria(tail_categoria, (char*)categorias.data + i * 64, head);
+	// cria as outras categorias, cada uma ja com a sua lista de alimentos
+	for (Categoria c = Bebidas; c < MAX_CATEGORIAS; c++) {
+		tail_categoria = inserir_node_categoria(tail_categoria, nome_categorias[c], head, c);
 
 	}
-
-	Node_Categoria* al = head_categoria;
 
 	
 
-	while (al != NULL) {
+	static int show = 0;
+	static int selected = -1;
+	static int modificado = 0; /* vira 1 quando alguma categoria ou alimento e removido */
+	// loop do menu; show controla se o menu precisa ser mostrado de novo
+	while (1) {
 
-		printf("--------%s\n", al->nome);
+		if (!show) {
+			printf("%s\n", "1. Listar Categorias");
+			printf("%s\n", "2. Listar elementos da categoria");
+			printf("%s\n", "3. Listar elementos por energia da categoria");
+			printf("%s\n", "4. Listar elementos por proteina da categoria");
+			printf("%s\n", "5. Listar elementos por energia da categoria entre 100 e 300 kcal");
+			printf("%s\n", "6. Listar elementos por proteina da categoria entre 6 e 10 gramas");
+			printf("%s\n", "7. Remover uma categoria");
+			printf("%s\n", "8. Remover um alimento");
+			printf("%s\n", "9. Encerrar o programa");
 
-		Node_Tree* root = malloc(sizeof(Node_Tree));
 
-		root->alimento = al->alimentos->alimento;
-		root->left = NULL;
-		root->right = NULL;
-
-		Node_Alimento* atual = al->alimentos->next;
-
-		while (atual != NULL) {
-
-			montar_arvore_energia(atual->alimento, root);
-
-			atual = atual->next;
+			show = 1;
 		}
 
-		//percorrer_energia(root);
+		scanf("%d", &selected);
 
-		al = al->next;
+
+
+		if (selected == 1) { // listar categorias
+			selected = -1;
+			system("cls");
+			imprimir_categorias(head_categoria);
+			printf(" %s\n", "Digite 0 para voltar");
+
+
+
+
+		}
+		else if(selected == 2) { // listar os alimentos da categoria escolhida
+			selected = -1;
+			system("cls");
+			imprimir_categorias(head_categoria);
+			printf("%s", "Digite o número da categoria:");
+			int n;
+			scanf("%d", &n);
+			system("cls");
+
+
+
+
+					// procura a categoria pelo id (o menu comeca em 1, o id em 0)
+					Node_Categoria* atual = head_categoria;
+					n--;
+					while (atual) {
+
+						if (atual->id == n) {
+							printf("----%s\n", atual->nome);
+							Node_Alimento* alimento = atual->alimentos;
+							while (alimento) {
+								printf("%s\n", alimento->alimento->desc);
+
+								alimento = alimento->next;
+							}
+
+
+						}
+
+						atual = atual->next;
+
+
+			}
+
+
+
+
+
+		}
+
+		else if (selected == 3) { // ordenar por energia usando a arvore
+			selected = -1;
+			system("cls");
+			imprimir_categorias(head_categoria);
+			printf("%s", "Digite o número da categoria:");
+			int n;
+			scanf("%d", &n);
+			system("cls");
+
+
+
+
+			Node_Categoria* atual = head_categoria;
+			n--;
+			while (atual) {
+
+				if (atual->id == n) {
+					printf("----%s\n", atual->nome);
+
+					Node_Tree* root = criar_arvore_energia(atual);
+					percorrer_energia(root, NORMAL);
+
+
+
+				}
+
+				atual = atual->next;
+
+
+			}
+
+
+
+
+
+		}
+
+		else if (selected == 4) { // ordenar por proteina usando a arvore
+			selected = -1;
+			system("cls");
+			imprimir_categorias(head_categoria);
+			printf("%s", "Digite o número da categoria:");
+			int n;
+			scanf("%d", &n);
+			system("cls");
+
+
+
+
+			Node_Categoria* atual = head_categoria;
+			n--;
+			while (atual) {
+
+				if (atual->id == n) {
+					printf("----%s\n", atual->nome);
+
+					Node_Tree* root = criar_arvore_proteina(atual);
+					percorrer_proteina(root, NORMAL);
+
+
+
+				}
+
+				atual = atual->next;
+
+
+			}
+
+
+
+
+
+		}
+
+		else if (selected == 5) { // energia entre 100 e 300 kcal
+			selected = -1;
+			system("cls");
+			imprimir_categorias(head_categoria);
+			printf("%s", "Digite o número da categoria:");
+			int n;
+			scanf("%d", &n);
+			system("cls");
+
+
+
+
+			Node_Categoria* atual = head_categoria;
+			n--;
+			while (atual) {
+
+				if (atual->id == n) {
+					printf("----%s\n", atual->nome);
+
+					Node_Tree* root = criar_arvore_energia(atual);
+					percorrer_energia(root, MIN_MAX);
+
+
+
+				}
+
+				atual = atual->next;
+
+
+			}
+
+
+
+
+
+			}
+
+		else if (selected == 6) { // proteina entre 6 e 10 g
+			selected = -1;
+			system("cls");
+			imprimir_categorias(head_categoria);
+			printf("%s", "Digite o número da categoria:");
+			int n;
+			scanf("%d", &n);
+			system("cls");
+
+
+
+
+			Node_Categoria* atual = head_categoria;
+			n--;
+			while (atual) {
+
+				if (atual->id == n) {
+					printf("----%s\n", atual->nome);
+
+					Node_Tree* root = criar_arvore_proteina(atual);
+					percorrer_proteina(root, MIN_MAX);
+
+
+
+				}
+
+				atual = atual->next;
+
+
+			}
+
+
+
+
+
+			}
+
+		else if (selected == 7) { // remover categoria
+			selected = -1;
+			system("cls");
+			imprimir_categorias(head_categoria);
+			printf("%s", "Digite o número da categoria que deseja remover:");
+			int n;
+			scanf("%d", &n);
+			system("cls");
+
+			if (remover_categoria(&head_categoria, n)) {
+				modificado = 1;
+				printf("%s\n", "Categoria removida.");
+			}
+			else printf("%s\n", "Categoria não encontrada.");
+
+			printf(" %s\n", "Digite 0 para voltar");
+
+		}
+
+		else if (selected == 8) { // remover alimento
+			selected = -1;
+			system("cls");
+			imprimir_categorias(head_categoria);
+			printf("%s", "Digite o número da categoria:");
+			int n;
+			scanf("%d", &n);
+			system("cls");
+
+			imprimir_alimentos_numero(head_categoria, n);
+			printf("%s", "Digite o número do alimento que deseja remover:");
+			unsigned int numero;
+			scanf("%u", &numero);
+			system("cls");
+
+			/* as arvores sao criadas de novo a partir da lista em toda consulta
+			   (opcoes 3 a 6), entao depois da remocao elas ja saem atualizadas */
+			if (remover_alimento(head_categoria, n, numero)) {
+				modificado = 1;
+				printf("%s\n", "Alimento removido.");
+			}
+			else printf("%s\n", "Alimento não encontrado.");
+
+			printf(" %s\n", "Digite 0 para voltar");
+
+		}
+
+		else if (selected == 9) { // encerrar
+
+			// so gera um novo dados.bin se algo foi removido
+			if (modificado) {
+				int gravados = salvar_dados(head_categoria, "dados.bin");
+				if (gravados < 0) printf("%s\n", "Erro ao gravar dados.bin");
+				else printf("dados.bin atualizado (%d alimentos).\n", gravados);
+			}
+
+			free(buffer_alimento);
+			return 0;
+		}
+
+		// 0 volta para o menu
+		if (selected == 0 && show) {
+			show = 0;
+			system("cls");
+
+		}
+
+
+
+
 	}
 
 
-	Node_Categoria* al2 = head_categoria;
 
-	while (al2 != NULL) {
 
-		printf("--------%s\n", al2->nome);
 
-		Node_Tree* root = malloc(sizeof(Node_Tree));
-
-		root->alimento = al2->alimentos->alimento;
-		root->left = NULL;
-		root->right = NULL;
-
-		Node_Alimento* atual = al2->alimentos->next;
-
-		while (atual != NULL) {
-
-			montar_arvore_proteina(atual->alimento, root);
-
-			atual = atual->next;
-		}
-
-		percorrer_proteina(root);
-
-		al2 = al2->next;
-	}
 
 
 	
+
+
 
 }

@@ -42,7 +42,7 @@ int parser(FILE* oldFile){
             atual+=10;
             int index = 0;
             memset(categoria, 0, sizeof(categoria));
-            while(*atual!='\n'){
+            while(*atual!='\r'){
                 categoria[index++] = *atual;
                 atual++;
                 

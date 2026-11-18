@@ -19,7 +19,16 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.c" />
+    <ClCompile Include="p2.c" />
+    <ClCompile Include="lista.c" />
+    <ClCompile Include="arvore.c" />
+    <ClCompile Include="arquivo.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="tipos.h" />
+    <ClInclude Include="lista.h" />
+    <ClInclude Include="arvore.h" />
+    <ClInclude Include="arquivo.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>

@@ -11,5 +11,6 @@ void percorrer_energia(Node_Tree* root, Modo m);
 void percorrer_proteina(Node_Tree* root, Modo m);
 Node_Tree* criar_arvore_energia(Node_Categoria* categoria);
 Node_Tree* criar_arvore_proteina(Node_Categoria* categoria);
+void liberar_arvore(Node_Tree* root);
 
 #endif

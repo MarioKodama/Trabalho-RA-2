@@ -132,6 +132,7 @@ int parser(FILE* oldFile){
 
     
 
+free(buffer); // o texto do arquivo nao e mais necessario
 return count;
 }
 
@@ -140,13 +141,20 @@ int main(int argc, char* argv[]){
 
     setlocale(LC_ALL, ".UTF8");
 
-    FILE* dados = fopen("dados.txt", "rb");
-    if(!dados){printf("%s", "Erro ao abrir arquivo"); return -1;}
-    FILE* novos_dados = fopen("dados.bin", "wb");
-    if(!novos_dados){printf("%s", "Erro ao criar arquivo bin"); return -1;}
+    // uso: p1 [arquivo_txt] [arquivo_bin]
+    // sem argumentos usa dados.txt e dados.bin
+    const char* nome_txt = (argc > 1) ? argv[1] : "dados.txt";
+    const char* nome_bin = (argc > 2) ? argv[2] : "dados.bin";
+
+    FILE* dados = fopen(nome_txt, "rb");
+    if(!dados){printf("Erro ao abrir arquivo %s\n", nome_txt); return -1;}
+    FILE* novos_dados = fopen(nome_bin, "wb");
+    if(!novos_dados){printf("Erro ao criar arquivo bin %s\n", nome_bin); fclose(dados); return -1;}
     lista = (Alimento*)malloc(sizeof(Alimento) * capacidade);
     int total_alimentos = parser(dados);
     fwrite(lista, sizeof(Alimento)*total_alimentos, 1, novos_dados);
+    fclose(dados);
+    fclose(novos_dados);
     
     for(unsigned int i = 0; i < total_alimentos; i++){
         printf("Categoria: %s\n", lista[i].categoria);
@@ -159,7 +167,7 @@ int main(int argc, char* argv[]){
 
 
     free(lista);
-    
+    getchar(); // pausa antes de fechar
    
 
 

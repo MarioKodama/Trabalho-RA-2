@@ -34,8 +34,12 @@ int main(int argc, char* argv[]) {
 
 	setlocale(LC_ALL, ".UTF8");
 
-	FILE* file = fopen("dados.bin", "rb");
-	if (file == NULL)return -1;
+	// uso: p2 [arquivo_bin]
+	// sem argumento usa dados.bin; a opcao 9 grava no mesmo arquivo
+	const char* nome_bin = (argc > 1) ? argv[1] : "dados.bin";
+
+	FILE* file = fopen(nome_bin, "rb");
+	if (file == NULL) { printf("Erro ao abrir arquivo %s\n", nome_bin); return -1; }
 
 	unsigned int byte = 0;
 	unsigned int total = 0;
@@ -176,6 +180,7 @@ int main(int argc, char* argv[]) {
 
 					Node_Tree* root = criar_arvore_energia(atual);
 					percorrer_energia(root, NORMAL);
+					liberar_arvore(root); // a arvore e criada a cada consulta, entao e liberada logo depois
 
 
 
@@ -213,6 +218,7 @@ int main(int argc, char* argv[]) {
 
 					Node_Tree* root = criar_arvore_proteina(atual);
 					percorrer_proteina(root, NORMAL);
+					liberar_arvore(root);
 
 
 
@@ -250,6 +256,7 @@ int main(int argc, char* argv[]) {
 
 					Node_Tree* root = criar_arvore_energia(atual);
 					percorrer_energia(root, MIN_MAX);
+					liberar_arvore(root);
 
 
 
@@ -287,6 +294,7 @@ int main(int argc, char* argv[]) {
 
 					Node_Tree* root = criar_arvore_proteina(atual);
 					percorrer_proteina(root, MIN_MAX);
+					liberar_arvore(root);
 
 
 
@@ -353,11 +361,14 @@ int main(int argc, char* argv[]) {
 
 			// so gera um novo dados.bin se algo foi removido
 			if (modificado) {
-				int gravados = salvar_dados(head_categoria, "dados.bin");
-				if (gravados < 0) printf("%s\n", "Erro ao gravar dados.bin");
-				else printf("dados.bin atualizado (%d alimentos).\n", gravados);
+				int gravados = salvar_dados(head_categoria, nome_bin);
+				if (gravados < 0) printf("Erro ao gravar %s\n", nome_bin);
+				else printf("%s atualizado (%d alimentos).\n", nome_bin, gravados);
 			}
 
+			// libera tudo antes de sair: categorias, lista geral e o buffer com os alimentos
+			liberar_categorias(head_categoria);
+			liberar_lista_alimento(head);
 			free(buffer_alimento);
 			return 0;
 		}

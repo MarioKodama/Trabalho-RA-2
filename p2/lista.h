@@ -17,4 +17,8 @@ int remover_categoria(Node_Categoria** head, int n);
 void imprimir_alimentos_numero(Node_Categoria* head, int n);
 int remover_alimento(Node_Categoria* head, int n, unsigned int numero);
 
+/* Liberacao de memoria */
+void liberar_lista_alimento(Node_Alimento* head);
+void liberar_categorias(Node_Categoria* head);
+
 #endif

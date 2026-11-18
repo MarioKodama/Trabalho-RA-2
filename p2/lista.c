@@ -120,12 +120,7 @@ int remover_categoria(Node_Categoria** head, int n) {
 			else anterior->next = atual->next;
 
 			// libera os nos da lista de alimentos (os alimentos ficam no buffer do main)
-			Node_Alimento* alimento = atual->alimentos;
-			while (alimento) {
-				Node_Alimento* prox = alimento->next;
-				free(alimento);
-				alimento = prox;
-			}
+			liberar_lista_alimento(atual->alimentos);
 
 			free(atual);
 
@@ -205,4 +200,28 @@ int remover_alimento(Node_Categoria* head, int n, unsigned int numero) {
 	}
 
 	return 0;
+}
+
+/* Libera todos os nos de uma lista de alimentos.
+   So libera os nos: os Alimento ficam no buffer_alimento, liberado no main. */
+void liberar_lista_alimento(Node_Alimento* head) {
+
+	Node_Alimento* atual = head;
+	while (atual) {
+		Node_Alimento* prox = atual->next; // guarda o proximo antes de liberar
+		free(atual);
+		atual = prox;
+	}
+}
+
+/* Libera todas as categorias, junto com a lista de alimentos de cada uma */
+void liberar_categorias(Node_Categoria* head) {
+
+	Node_Categoria* atual = head;
+	while (atual) {
+		Node_Categoria* prox = atual->next;
+		liberar_lista_alimento(atual->alimentos);
+		free(atual);
+		atual = prox;
+	}
 }

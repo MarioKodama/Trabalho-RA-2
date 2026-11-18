@@ -166,3 +166,14 @@ Node_Tree* criar_arvore_proteina(Node_Categoria* categoria) {
 
 
 }
+
+/* Libera a arvore em pos-ordem (filhos antes do pai).
+   So libera os nos: os Alimento continuam no buffer. */
+void liberar_arvore(Node_Tree* root) {
+
+	if (root == NULL) return;
+
+	liberar_arvore(root->left);
+	liberar_arvore(root->right);
+	free(root);
+}
